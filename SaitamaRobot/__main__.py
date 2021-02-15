@@ -178,17 +178,17 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(                   
                           [[
                               InlineKeyboardButton(
-                              text="🔥Add IGRIS To Your Group🔥",
+                              text="🔥Add MASTER To Your Group🔥",
                               url="t.me/{}?startgroup=true".format(
                                   context.bot.username))
                           ], 
                           [
                               InlineKeyboardButton(
                               text="🍁Support Group🍁",
-                              url=f"https://t.me/IGRISBOTSUPPORT"),
+                              url=f"https://t.me/Master_Support_Group"),
                               InlineKeyboardButton(
                               text="✨Updates Channel✨",
-                              url="https://t.me/IGRISROBOT_SUPPORT")
+                              url="https://t.me/Master_Support_Channel")
                           ]])) 
     else:
         update.effective_message.reply_text(
